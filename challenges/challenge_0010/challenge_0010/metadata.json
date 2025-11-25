@@ -1,0 +1,37 @@
+[
+  {
+    "title": "RV32IMCK Power-Optimized Processor Design",
+    "description": "Improve the RV32IMCK core (based on top Challenge_0009 designs) with a strong focus on reducing power while keeping 100% functionality.",
+    "difficulty": "medium",
+    "estimated_time_hours": 336,
+    "evaluation_metrics": {
+      "functionality": 0.0,
+      "area": 0.3333,
+      "delay": 0.3333,
+      "power": 0.3333
+    },
+    "scoring_details": {
+      "functionality_description": "Must pass all functional tests (100%). If functionality < 100%, design will be disqualified.",
+      "area_baseline_gates": "Area target is 200000.0 micro square meter (same as Challenge_0009).",
+      "delay_target_ns": "Throughput target is 100000000.0 instructions per second.",
+      "power_budget_mw": "Aim for ~50 mW and keep < 100 mW.",
+      "final_score_requirement": "Final Score (1/3 area + 1/3 delay + 1/3 power) must be ≥ 75.00 to qualify."
+    },
+    "submission_requirements": {
+      "file_format": "systemverilog/verilog",
+      "top_module_name": "",
+      "filelist_name": "rtl.f",
+      "max_file_size_kb": 50000,
+      "coding_style": "synthesizable_verilog_2005"
+    },
+    "challenge_files": [
+      "Challenge_0010  Improving RV32IMCK Processor.pdf",
+      "Solution1.zip",
+      "Solution2.zip"
+    ],
+    "bonus_objectives": [],
+    "created_by": "ChipForge-SN84",
+    "created_date": "2025-11-25",
+    "version": "1.0"
+  }
+]
